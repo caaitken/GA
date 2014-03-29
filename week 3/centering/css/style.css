@@ -5,18 +5,6 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-
-/******************************************
-/* SETUP                   
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
 /******************************************
 /* LAYOUT                   
 /*******************************************/
@@ -66,8 +54,9 @@ ins {
      float: right;
      margin: 30px;
      width: 40%;
+     padding: 30px;
      opacity: 0.8;
-     border: solid;
+     box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
      background-color: lightgrey;
 }
 .firstbox p{
@@ -77,16 +66,17 @@ ins {
 .button {
      background-color: yellow;
      color: black;
-     padding: 10px;
+     padding: 5px;
      margin: 10px;
      border: solid yellow;
     
 }
-.infobox {
+.boxes {
+background-color: none;
 float: left;
 width: 33%;
-background-color: none;
 }
+
 
 .footer {
      background-color: black;
