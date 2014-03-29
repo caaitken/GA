@@ -17,82 +17,46 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
-.alignright {
-	float: right; 
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-	float: left; 
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES                   
-/*******************************************/
-
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
-
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
-header,
-main,
-footer {
-height: 200px;
-color: white;
-}
-
 header {
      background-color: black;
      float: left;
+     width: 100%;
+     border-bottom: yellow solid 5px;
 }
 h1 {
      color: yellow;
      float: left;
-     margin: 200px 0 0 0;
+     margin: 0 0 0 0;
+     padding: 10px;
 }
-nav ul li {
+nav ul li a{
      float: left;
      color: white;
      padding: 10px;
-}
-p {
-     color: black;
-     font-family: sans-serif;
      text-decoration: none;
-     border-top: yellow solid 5px;
-     background-color: grey;
+     padding-left: 12px;
+     padding-top: 50px;
+}
+
+.header2 {
+     background-color: lightgrey;
+     font-family: 'Merriweather', sans-serif;
+     text-decoration: none;
+     text-align: center;
+     font-size: 30px;
 }
 del {
      color: grey;
 }
 ins {
-     text-decoration: underline yellow;
+     text-decoration: underline;
 }
 .banner{
-     background-image: url("../images/coworking.jpg") center center no-repeat;
+     background: url("../images/coworking.jpg") no-repeat;
      background-size: cover;
      overflow: hidden;
      padding: 3%;
@@ -101,14 +65,32 @@ ins {
 .firstbox {
      float: right;
      margin: 30px;
-     width: 30%;
-     border: none;
+     width: 40%;
      opacity: 0.8;
+     border: solid;
+     background-color: lightgrey;
+}
+.firstbox p{
+     font-size: 12px;
 }
 
+.button {
+     background-color: yellow;
+     color: black;
+     padding: 10px;
+     margin: 10px;
+     border: solid yellow;
+    
+}
+.infobox {
+float: left;
+width: 33%;
+background-color: none;
+}
 
-footer {
+.footer {
      background-color: black;
+     width: 100%;
 }
 
 
