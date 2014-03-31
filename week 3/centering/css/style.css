@@ -14,6 +14,7 @@ header {
      float: left;
      width: 100%;
      border-bottom: yellow solid 5px;
+     font-family: 'Merriweather', sans-serif;
 }
 h1 {
      color: yellow;
@@ -58,6 +59,7 @@ ins {
      opacity: 0.8;
      box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
      background-color: lightgrey;
+     font-family: 'Merriweather', sans-serif;
 }
 .firstbox p{
      font-size: 12px;
@@ -66,18 +68,49 @@ ins {
 .button {
      background-color: yellow;
      color: black;
-     padding: 5px;
-     margin: 10px;
+     padding: 6px 33px;
+     margin: 15px 0 0 0;
      border: solid yellow;
+     text-decoration: none;
+     font-family: 'Merriweather', sans-serif;
     
 }
 .boxes {
-background-color: none;
-float: left;
-width: 33%;
+     margin: 10px;
+     display: block;
+     position: relative;
 }
-
-
+.box1 {
+     text-align: center;
+     float: left;
+     width: 33%;
+}
+.box2{
+     text-align: center;
+     float: left; 
+     width: 33%;   
+}
+.box3{
+     text-align: center;
+     float: left;
+     width: 33%;
+}
+.buttong {
+     height: 40px;
+     padding: 6px 33px;
+     font-size: 14px;
+     text-decoration: none;
+     text-align: center;
+     background-color: lightgrey;
+     color: black;
+     border-radius: 6px;
+     margin: 15px 0 0 0;
+     display: inline-block;
+     font-family: 'Merriweather', sans-serif;
+}
+.clear{
+     clear: both;
+}
 .footer {
      background-color: black;
      width: 100%;
