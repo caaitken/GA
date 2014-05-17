@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Claire Aitken's Dev Page">
+    	<meta name="keywords" content="claire, aitken, developer">
+	
+		<title>Claire Aitken</title>
+
+	</head>
+	<body>
+		<h1>Claire Aitken</h1>
+		<h2><a href="">github</a></h2>
+		<h2><a href="http://codepen.io/caaitken/"</a></h2>
+
+		<h3>Week 8: Forms & To Do App</h3>
+		<ul>
+			<li><a href"week8/materials/form_elements">Form Lab</a></li>
+			<li><a href"">To Do App</a></li>
+		</ul>
+	</body>
+</html>
